@@ -50,7 +50,7 @@ def reduce_to_all_true(source_array)
     if source_array[i] != false
       i += 1
     else
-     false
+     return false
   end
   true
 end
