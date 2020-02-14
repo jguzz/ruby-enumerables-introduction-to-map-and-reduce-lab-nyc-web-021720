@@ -23,3 +23,13 @@ def map_to_double(source_array)
   end
   doubled
 end
+
+def map_to_square(source_array)
+  squared = []
+  i = 0
+  while i < source_array.length
+    squared[i] = source_array[i] * source_array[i]
+    i += 1
+  end
+  squared
+end
