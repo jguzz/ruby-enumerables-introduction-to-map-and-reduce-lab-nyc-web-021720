@@ -6,4 +6,5 @@ def map_to_navigate(array)
   while i < array.length
     neg[i] = -1 * array[i]
   end
+  neg
 end
