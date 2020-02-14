@@ -1,10 +1,10 @@
 # My Code here....
 
-def map_to_negativize(array)
+def map_to_negativize(source_array)
   i = 0
   neg = []
-  while i < array.length
-    neg[i] = -1 * array[i]
+  while i < source_array.length
+    neg[i] = -1 * source_array[i]
   end
   neg
 end
