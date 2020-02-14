@@ -52,4 +52,5 @@ def reduce_to_all_true(source_array)
     else
       return false
   end
+  true
 end
